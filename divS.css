@@ -1,0 +1,46 @@
+#divrcorners1 {
+    border-radius: 25px;
+    background-color: beige;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+    
+    transform: translate(-50%, -50%);
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 100%;
+    text-align: center;
+}
+.contenedor{
+    
+    display: inline-block;
+    text-align: center;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.centradoSpans{
+       padding-top:25%;
+    text-align: center;
+ 
+    
+   
+}

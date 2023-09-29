@@ -1,0 +1,103 @@
+aside {
+    width: 25%;
+    padding-left: 15px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+  }
+#carrite{
+  font-family: Impact, Charcoal, sans-serif;
+  font-size: 40px;
+  letter-spacing: -0.6px;
+  word-spacing: -1.8px;
+  color: #AD1555;
+  font-weight: 400;
+  text-decoration: none solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: uppercase;
+  }
+  .grid-container {
+    text-align: center;
+    align-content: center;
+    width: 100%;
+    display: grid;
+    border-radius: 2%;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-gap: 10px;
+    background-color: #bfd6e9;
+    padding: 10px;
+  }
+  
+  .grid-container > div {
+    
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+  #boton-vaciar{
+    border-radius: 5%;
+    border: 0ch;
+    width: auto;
+    padding: 2% 5%;
+    background-color: #b8f8f0;
+  }
+  button:hover {
+    opacity: 0.8;
+  }
+
+  .list-group{
+    
+      font-family: Verdana, Geneva, sans-serif;
+      font-size: 19px;
+      letter-spacing: -1px;
+      word-spacing: 2px;
+      color: #000000;
+      font-weight: 400;
+      text-decoration: none solid rgb(68, 68, 68);
+      font-style: normal;
+      font-variant: normal;
+      text-transform: capitalize;
+      
+  }
+  .card-title{
+    
+      font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+      font-size: 19px;
+      letter-spacing: -0.2px;
+      word-spacing: -0.2px;
+      color: #000000;
+      font-weight: 400;
+      text-decoration: none solid rgb(68, 68, 68);
+      font-style: normal;
+      font-variant: normal;
+      text-transform: capitalize;
+      
+  }
+  .btnplus2 {
+    border-radius: 5%;
+    border: 0ch;
+    width: auto;
+    padding: 1% 1%;
+    background-color: #e1b5b2;
+  }
+  .btnplus {
+    border-radius: 5%;
+    border: 0ch;
+    width: auto;
+    padding: 2% 5%;
+    background-color: #e1b5b2;
+  }
+div{
+  border-radius: 3%;
+  
+  width: fit-content;
+  height: fit-content;
+}
+img{
+  height: 70%;
+  width: 75%;
+}
